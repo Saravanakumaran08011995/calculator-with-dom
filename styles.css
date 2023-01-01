@@ -1,0 +1,50 @@
+
+*{
+    text-align: center;
+    color: black;
+  }
+
+  #clear {
+    background-color: rgb(214, 175, 175);
+  }
+  
+  #equal{
+    background-color: moccasin;
+  }
+  
+  #container{
+      background-color: rgb(128, 148, 172);
+      height: 60vh;
+      width: 60%;
+      margin: auto;
+      display: flex;
+      flex-direction: column;
+  }
+  
+  #result{
+    background-color:whitesmoke;
+    font-size: 50px;
+    text-align: end;
+  
+  }
+
+  #button-box{
+    padding-top: 40px; 
+  }
+
+  #numbers{
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(4,2fr);
+    gap: 1rem;
+  }
+  
+  button{
+    background-color: white;
+    /* color: black; */
+    font-size: larger;
+  }
+
+  button:hover {
+    background-color:rgb(128, 155, 215);
+  }
